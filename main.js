@@ -1,0 +1,53 @@
+$(document).ready(function(){
+    $(".gallery-active").owlCarousel({
+        margin:10,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:false,
+        smartSpeed:1000,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                dots:true,
+                nav:false
+            },
+            600:{
+                items:3,
+                dots:false,
+                nav:true
+            },
+            1000:{
+                items:3,
+                dots:false,
+                nav:true
+            }
+        }
+    });
+
+//testimonial
+$(".testimonial-active").owlCarousel({
+    margin:10,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+    responsiveClass:true,
+    dots:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:1,
+        },
+        1000:{
+            items:1,
+        }
+    }
+});
+
+
+  });

@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: 800;
+}
+.navbar .nav-link {
+    font-size: 16px;
+}
+
+/*Header*/
+
+#header {
+    position: relative;
+    height: 80vh;
+    background: url('img/header.jpg') no-repeat;
+    background-size: cover;
+    background-position: center left;
+
+}
+#header .header-txt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    min-height: 80vh;
+}
+#header .header-txt h1 {
+    font-size: 36px;
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+#header .header-txt h2 {
+    font-size: 30px;
+    color:#ddd;
+    font-weight: 500;
+}
+#header .header-txt p {
+    font-size: 15px;
+    color:#fff;
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+#header .header-txt .hd-btn  {
+    margin-top: 20px;
+}
+#header .header-txt .hd-btn a {
+    text-decoration: none;
+    color:#fff;
+    border:2px solid #97b3b5;
+    padding:15px 60px;
+    display: inline-block;
+    border-radius:50px;
+    font-size: 20px;
+}
+/*heading features*/
+
+#heading-features {
+    position: relative;
+}
+#heading-features .heading-txt h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#636c6c;
+}
+#heading-features .heading-txt p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8;
+    color:#98a2a2;
+}
+
+/*tabs area*/
+#heading-features .tabs-area .nav-pills {
+    border-right:1px solid #f1ecec;
+}
+#heading-features .tabs-area .nav-pills .nav-link .fa {
+    font-size: 25px;
+    margin-right: 10px;
+}
+#heading-features .tabs-area .nav-pills .nav-link {
+    color:#9fa9a9;
+    margin: 10px 0;
+    font-size: 14px;
+    border-radius:0;
+    display: inline-block;
+}
+#heading-features .tabs-area .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #5dca88;
+    background: #fff;
+    border-right:5px solid #5dca88;
+    border-radius:0;
+}
+#v-pills-tabContent .fa {
+    font-size: 100px;
+    color: #5dca88;
+    margin: 20px 0;
+}
+#v-pills-tabContent h3 {
+    color:#636c6c;
+    font-size: 25px;
+}
+#v-pills-tabContent  p {
+    color:#afb8b8;
+}
+
+/* App Screen */
+#appScreen {
+    position: relative;
+}
+#appScreen h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#5dca88;
+    position: relative;
+    margin-bottom: 40px;
+}
+#appScreen h3:after {
+    content:'';
+    position: absolute;
+    width:100px;
+    height:3px;
+    left:0;
+    bottom:-20px;
+    background: #949c9c;
+}
+#appScreen h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color:#8c9494;
+    margin-bottom: 20px;
+}
+#appScreen p {
+    font-size: 16px;
+    font-weight: 300;
+    color:#8c9494;
+}
+#appScreen a {
+    text-decoration: none;
+    border:2px solid #aab2b5;
+    color:#aab2b5;
+    text-transform: uppercase;
+    padding:15px 60px;
+    border-radius:50px;
+    font-weight: 600;
+}
+/* gallery */
+#gallery {
+    position: relative;
+}
+#gallery h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#636c6c;
+    margin-bottom: 10px;
+}
+#gallery p {
+    font-size: 16px;
+    font-weight: 300;
+    color:#afb8b8;
+}
+
+/*owl-carousel nav*/
+.owl-theme{
+    position: relative;
+}
+.owl-theme .owl-nav .owl-prev span , .owl-theme .owl-nav .owl-next span {
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    left:auto;
+    transform:translateY(-50%);
+    transition:0.5s all ease;
+}
+.owl-theme .owl-nav .owl-prev span  {
+    left:-30px;
+}
+.owl-theme .owl-nav .owl-next span  {
+    right:-30px;
+}
+.owl-theme:hover .owl-nav span {
+    color:red;
+    margin:0 -10px;
+}
+
+#testimonials {
+    position: relative;
+}
+#testimonials h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#636c6c;
+}
+#testimonials img {
+    width:100px;
+    height:auto;
+    margin: auto;
+}
+#testimonials blockquote {
+    margin:25px 0;
+}
+#testimonials blockquote span {
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+}
+#testimonials p {
+    font-size: 24px;
+    color:#5dca88;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #5dca88;
+}
+ /* News Letter */
+#newsLetter {
+    position: relative;
+}
+#newsLetter h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#8c9494;
+}
+#newsLetter form {
+    position: relative;
+    margin-top: 20px;
+}
+#newsLetter form input[type="text"]{
+    width:100%;
+    height:40px;
+    border:1px solid #bbc3c2;
+    border-radius:50px;
+    padding:0 20px;
+    font-size: 16px;
+}
+#newsLetter form input[type="text"]:focus {
+    border:1px solid #5dca88;
+}
+#newsLetter form input[type="submit"] {
+    width: 150px;
+    height:40px;
+    border:none;
+    outline:none;
+    background: #5dca88;
+    color:#fff;
+    border-radius:50px;
+    font-size: 16px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+/*footer*/
+#footer {
+    position: relative;
+}
+#footer h3{
+    font-size: 24px;
+    font-weight: 500;
+    color:#8c9494;
+}
+
+#footer .footer-icons {
+    margin-top: 20px;
+}
+#footer .footer-icons .list-inline .list-inline-item .fa {
+    background: #5d6461;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    line-height: 30px;
+    font-size: 16px;
+    cursor:pointer;
+}
+#footer  .footer-nav {
+    margin-top: 30px;
+}
+#footer  .footer-nav a {
+    text-decoration: none;
+    color:#5d6461;
+}
+/*Responsive design*/ 
+@media screen and (max-width:992px) {
+    #heading-features .heading-txt h3 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    #navbar .navbar .navbar-brand {
+        font-size: 20px;
+    }
+    #navbar .navbar .site-address span {
+        display: block;
+    }
+    #appScreen h3 {
+        font-size: 20px;
+    }
+    #appScreen a {
+        text-decoration: none;
+        border:2px solid #aab2b5;
+        color:#aab2b5;
+        text-transform: uppercase;
+        padding:5px 20px;
+        border-radius:50px;
+        font-weight: 600;
+    }
+    #gallery h3 {
+        font-size: 20px;
+    }
+    #testimonials h3 {
+        font-size: 20px;
+    }
+    #newsLetter h3 {
+        font-size: 20px;
+    }
+    #newsLetter form input[type="submit"] {
+        width: 150px;
+        font-size: 12px;
+        position: relative;
+        margin-top: 15px;
+    }
+   
+}
+@media screen and (max-width:576px){
+    #newsLetter h3 {
+        font-size: 20px;
+    }
+}
